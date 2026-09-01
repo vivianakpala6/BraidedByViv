@@ -306,6 +306,14 @@ body {
     transition: 0.3s;
 }
 
+.book-now-button {
+    font-size: 22px;
+}
+
+.book-now-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(183, 106, 160, 0.75);
+}
 .book-now-button:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 12px rgba(183, 106, 160, 0.75);
