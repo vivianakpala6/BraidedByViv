@@ -318,3 +318,160 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 8px 12px rgba(183, 106, 160, 0.75);
 }
+
+
+@media screen and (max-width: 768px) {
+
+    /* Prevent anything from going past phone screen */
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    /* INTRO */
+
+    .intro {
+        flex-direction: column;
+        gap: 30px;
+        padding: 35px 20px 20px;
+    }
+
+    .profile-photo {
+        width: 220px;
+        height: 220px;
+    }
+
+    .profile h2 {
+        font-size: 34px;
+    }
+
+    .about {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .about h1 {
+        font-size: 21px;
+    }
+
+    .brand-name {
+        font-size: 46px;
+    }
+
+    .about p {
+        font-size: 16px;
+        padding: 0 5px;
+    }
+
+
+    /* LOCATION */
+
+    .location-box {
+        width: 100%;
+        max-width: 350px;
+        margin-top: 25px;
+        padding: 10px 15px;
+    }
+
+    .location-box p {
+        font-size: 16px;
+    }
+
+
+    /* CONTACT + BOOKING HOURS */
+
+    .details {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 30px 20px 50px;
+    }
+
+    .contact-box,
+    .booking-box {
+        width: 100%;
+        max-width: 350px;
+        min-height: 0;
+    }
+
+    .contact-box h2,
+    .booking-box h2 {
+        font-size: 32px;
+    }
+
+
+    /* PAGE 2 */
+
+    .policies-page {
+        margin-top: 30px;
+        padding: 40px 20px;
+    }
+
+    .page-slogan {
+        text-align: center;
+        font-size: 27px;
+        margin: 0 0 30px;
+    }
+
+
+    /* PAYMENTS */
+
+    .payments-title {
+        font-size: 38px;
+    }
+
+    .payments-box {
+        width: 100%;
+        padding: 25px 20px;
+    }
+
+    .payments-box p {
+        font-size: 16px;
+    }
+
+
+    /* BOOKING POLICIES */
+
+    .booking-policies {
+        margin-top: 45px;
+        padding: 0 20px;
+    }
+
+    .policies-title {
+        font-size: 38px;
+    }
+
+    .policy-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .policy-box {
+        width: 100%;
+        max-width: 350px;
+        min-height: 140px;
+        padding: 20px;
+    }
+
+    .policy-box p {
+        font-size: 16px;
+    }
+
+
+    /* BOOK NOW */
+
+    .book-now-section {
+        margin: 45px 0 50px;
+    }
+
+    .book-now-button {
+        font-size: 20px;
+        padding: 14px 45px;
+    }
+}
